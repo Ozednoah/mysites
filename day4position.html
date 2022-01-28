@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Positioning</title>
+	<style type="text/css">
+	body{width:100%;
+	height:1000px;
+	}
+	#demo{
+	width:2%;
+	height;100px;
+	position:fixed;
+	right:0px;
+	top:200px;
+	background-color:pink;
+	}
+	#parents{
+	width:100%;
+	height:300px;
+	background-color:pink;
+	position:relative;
+
+	}
+	#child{
+	width:20%;
+	height:50px;
+	background-color:green;
+	position:absolute;
+	top:50px;
+	}
+	</style>
+</head>
+<body>
+	<div id="demo">
+	<a href="#"><img src="images/star.png" alt="no logo"/></a>
+	<a href="#"><img src="images/star.png" alt="no logo"/></a>
+	<a href="#"><img src="images/star.png" alt="no logo"/></a>
+	<a href="#"><img src="images/star.png" alt="no logo"/></a>
+	</div>
+	<div id="parents">
+	parent
+		<div id="child">
+		<p>na be be pikin</p>
+		</div>
+	</div>
+</body>
+</html>

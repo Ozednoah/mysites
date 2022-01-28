@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<form  action="process.php method="get">
+		<p>
+		</p>
+		<fieldset>
+		<legend>personal Biodata</legend>
+				<label for="surname">surname</label>	<input type="text" name="surname" id="surname" placeholder="surname here"/>
+		<p>
+		</p>
+		<label for="othernames">othernames</label>	<input type="text" name="othernames" id="othernames"
+		placeholder="your other name"/>
+		<p>
+		</p>
+		<label for="age">age</label> <input type="number" name="age" id="age" min="18"/>
+		<p>
+		</p>
+		<label for="email">email</label>	<input type="email" name="email" id="email"
+		placeholder="your other name"/>
+		
+		<input type="radio" name="gender" id="malegender" value="m"?/><label for="malegender">Male</label>
+		<input type="radio" name="gender" id="femalegender" value="f"?/><label for="femalegender">Female</label>
+		</fieldset>
+		<p>
+		</p>
+		Hobbies:
+			<input type="checkbox" name="swimming" value="swimming" id="swimming"?/><label for="swimming">swimming</label>
+			<input type="checkbox" name="travelling" value="travelling" id="travelling"?/><label for="travelling ">travelling</label>
+			<input type="checkbox" name="reading" value="reading" id="reading"/><label for="reading">reading</label> 
+			
+			<p>
+			</p>
+			
+		state of origin<select name="state"
+					<option value="">--Select--</option>
+					<option value="lagos">lagos</option>
+					<option value="fct">fct</option>
+					<option value="abia">abia</option>
+					<option value="ogun">ogun</option>
+				</select>
+				<p>
+				</p>
+				your photo <input type="file" name="photo"/>
+				<p>
+				</p>
+		your comments<br/>
+		<textarea rows="5" cols="25"></textarea>
+		<p>
+		</p>
+					
+		<input type="submit" name="submitBtn" value="Register"/>
+		<input type="reset" name="resetBtn" value="clear"/>
+		<input type="button" name="nothingBtn" value="clickme"/>
+				
+		</form>
+		
+	</body>
+</html>

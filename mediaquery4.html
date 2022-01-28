@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Media Query Demo</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style type="text/css">
+		*{
+			box-sizing:border-box;
+		}
+		div{
+			border:1px solid black;
+			padding:10px;
+		}
+		#row{
+			display:flex;
+			justtify-content:space-between;
+		}
+		.row1{
+			width:50%;
+			height:200px;
+			background-color:blue;
+		}
+		#rower{
+			height:100px;
+			width:100%;
+		}
+		@media screen and (max-width: 480px){
+			.row1{
+				width:100%;
+			}
+			#row{
+				display:block;
+			}
+		}
+	</style>
+</head>
+<body>
+<!--wrapper div-->
+	<div>
+	<!--firstrow-->
+	<div id="row">
+	<div class="row1">a</div>
+	<div class="row1">a</div>
+	</div>
+	<!--2nd row-->
+	<div id="rower">a</div>
+	
+</body>
+</html>

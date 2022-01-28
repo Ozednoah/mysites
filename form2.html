@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Contact Us</title>
+	</head>
+	<body bgcolor="skyblue">
+		<form action="process.php method="get" width="100%">
+			<Fieldset>
+				<legend>Contact Us</legend>
+					<label for="Email">Email</label><input type="Email" name="Email" id="Email" placeholder="Enter your Email"></input>
+					<p>
+					</p>
+					<label for="Names">Names</label>
+					<input type="text" maxlength="50" width="50%" name="firstname" id="Names"  placeholder="Enter your full name"></input><br/>
+					<p>
+					</p>
+				Gender:<br/>
+			<input type="radio" name="gender" value="Male" id="Male"></input><label for="Male">Male</label><br/>
+			<input type="radio" name="gender" value="Female" id="Female"></input><label for="Female">Female</label><br/>
+			<input type="radio" name="gender" value="others"id="others"></input><label for="others">Others</label><br/>
+			<p>
+			</p>
+			<label for="Home Address">Home Address</label><br/>
+			<textarea rows="5" cols="25" id="Home Address"></textarea><br/>
+			<p>
+			</p>
+			Country:<select name="country">
+					<option value="">--Select--</option>
+					<option value="Afganistan">Afganistan</option>
+					<option value="Biafra">Biafra</option>
+					<option value="Iraq">Iraq</option>
+					<option value="Nigeria">Nigeria</option>
+					</select>
+			<p>
+			</p>
+			Feedback:<br/>
+			<label for="Phone">Phone</label>
+			<input type="checkbox" name="Phone" value="Phone" id="Phone"/>
+			<label for="Fax">Fax</label>
+			<input type="checkbox" name="Fax" value="Fax" id="Fax"/><br/>
+			<input type="submit" name="submitBtn" value="submit"/>
+			<input type="reset" name="resetBtn" value="clear"/>
+					
+					
+			
+			</fieldset>
+		</form>
+	</body>
+</html>
